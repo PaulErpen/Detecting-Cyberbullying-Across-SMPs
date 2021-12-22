@@ -1,0 +1,19 @@
+name: cyberbullying
+dependencies:
+  - python=2.7
+  - pip
+  - numpy
+  - matplotlib
+  - tensorflow
+  - keras
+  - pandas
+  - scipy
+  - pip:
+    - decorator
+    - ipywidgets==7.5
+    - twitter-text-python
+    - tflearn
+    - argparse
+    - sklearn
+    - textblob
+    - jupyter[notebook]

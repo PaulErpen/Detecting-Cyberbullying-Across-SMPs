@@ -41,3 +41,9 @@ To know more about the architecture used and results, please read our paper [her
 
 In [2] and [3], the authors discuss the limitations of our oversampling method (Section 4.2) in that, the way oversampling is currently handled may lead to overfitting. We found their claims/criticisms valid and important but we haven't conducted any new experiments to explicitely test and improve upon the limitations. Based on these studies, we no longer claim that our models provide state of the art results on the dataset untill further experiments are carried to study the effect of oversampling on the representations learned. We do believe that our paper and repository still serves as a useful resourse for modelling cyberbullying detection and understanding transferability between platforms. We suggest our viewers to look at these papers to be more aware of the limitations. 
  
+## Creating and activating a virtual environment to run this code 
+
+```
+conda env create -f environment.yml
+conda activate cyberbullying
+```
