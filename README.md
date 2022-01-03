@@ -47,3 +47,8 @@ In [2] and [3], the authors discuss the limitations of our oversampling method (
 conda env create -f environment.yml
 conda activate cyberbullying
 ```
+
+To remove use:
+```
+conda env remove --name cyberbullying
+```
