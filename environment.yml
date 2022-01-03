@@ -12,7 +12,7 @@ dependencies:
     - ipywidgets==7.5
     - tweet-preprocessor==0.4.0
     - tensorflow==1.15.0
-    - tflearn==0.5.0
+    - tflearn==0.2.2
     - argparse==1.4.0
     - scikit-learn==0.19.0
     - textblob==0.17.1
