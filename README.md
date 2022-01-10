@@ -65,3 +65,8 @@ docker build -t cyberbullying:latest -f .\docker\Dockerfile .
 docker run -p 8796:8796 cyberbullying:latest
 ```
 After running docker build you can retrieve the token from the console.
+
+You can also retrieve the token by connecting to the container and running:
+```
+jupyter notebook list
+```
