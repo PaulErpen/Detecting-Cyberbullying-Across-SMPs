@@ -1,0 +1,31 @@
+Data loaded!
+Using char n-grams based features
+Counter({2: 11036, 1: 3117, 0: 1937})
+Model Type: svm
+Precision Class 1 (avg): 0.786 (+/- 0.055)
+Recall Class 1 (avg): 0.736 (+/- 0.067)
+F1_score Class 1 (avg): 0.759 (+/- 0.040)
+Precision Class 2 (avg): 0.891 (+/- 0.026)
+Recall Class 2 (avg): 0.896 (+/- 0.020)
+F1_score Class 2 (avg): 0.894 (+/- 0.013)
+Model Type: naive
+Precision Class 1 (avg): 0.910 (+/- 0.056)
+Recall Class 1 (avg): 0.455 (+/- 0.089)
+F1_score Class 1 (avg): 0.605 (+/- 0.082)
+Precision Class 2 (avg): 0.804 (+/- 0.025)
+Recall Class 2 (avg): 0.963 (+/- 0.008)
+F1_score Class 2 (avg): 0.876 (+/- 0.014)
+Model Type: lr
+Precision Class 1 (avg): 0.825 (+/- 0.048)
+Recall Class 1 (avg): 0.641 (+/- 0.084)
+F1_score Class 1 (avg): 0.721 (+/- 0.059)
+Precision Class 2 (avg): 0.869 (+/- 0.026)
+Recall Class 2 (avg): 0.915 (+/- 0.012)
+F1_score Class 2 (avg): 0.891 (+/- 0.011)
+Model Type: random_forest
+Precision Class 1 (avg): 0.899 (+/- 0.046)
+Recall Class 1 (avg): 0.567 (+/- 0.091)
+F1_score Class 1 (avg): 0.695 (+/- 0.074)
+Precision Class 2 (avg): 0.845 (+/- 0.033)
+Recall Class 2 (avg): 0.952 (+/- 0.009)
+F1_score Class 2 (avg): 0.895 (+/- 0.018)

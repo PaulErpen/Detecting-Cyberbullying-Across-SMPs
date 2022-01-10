@@ -47,3 +47,21 @@ In [2] and [3], the authors discuss the limitations of our oversampling method (
 conda env create -f environment.yml
 conda activate cyberbullying
 ```
+
+To remove use:
+```
+conda env remove --name cyberbullying
+```
+
+## Building and running code via docker
+
+Please build from the root directory of this project.
+The `data` and the `word_vectors` folders need to have contents.
+```
+docker build -t cyberbullying:latest -f .\docker\Dockerfile .
+```
+
+```
+docker run -p 8796:8796 cyberbullying:latest
+```
+After running docker build you can retrieve the token from the console.

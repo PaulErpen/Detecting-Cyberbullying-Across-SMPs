@@ -17,4 +17,4 @@ RUN pip install scikit-learn==0.19.0
 RUN pip install textblob==0.17.1
 RUN pip install jupyter[notebook]==1.0.0
 EXPOSE 8796
-CMD jupyter notebook --ip=127.0.0.1 --port=8796 --allow-root
+CMD jupyter notebook --ip=0.0.0.0 --port=8796 --allow-root
