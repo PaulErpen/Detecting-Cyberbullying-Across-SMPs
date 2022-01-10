@@ -52,3 +52,15 @@ To remove use:
 ```
 conda env remove --name cyberbullying
 ```
+
+## Building and running code via docker
+
+Please build from the root directory of this project.
+The `data` and the `word_vectors` folders need to have contents.
+```
+docker build -t cyberbullying:latest -f .\docker\Dockerfile .
+```
+
+```
+docker run -p 8796:8796 cyberbullying:latest
+```
