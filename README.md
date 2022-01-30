@@ -19,7 +19,7 @@ We have also used two different kind of embeddings for initialization which can 
 
 You need to download all available embeddings and unzip them to the `word_vectors` directory.
 
-Sadly neither the data sets, nor the word embeddings can be provided via GitHub, since the files are to big.
+Sadly neither the data sets, nor the word embeddings can be provided via GitHub, since the files are too big.
 
 ## Purpose of the provided files
 
