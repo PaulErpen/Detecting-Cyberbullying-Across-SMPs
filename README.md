@@ -17,6 +17,10 @@ We have also used two different kind of embeddings for initialization which can 
 - [Sentiment Specific word embeddings (SSWE)](http://ir.hit.edu.cn/~dytang/paper/sswe/embedding-results.zip). This link is sadly down, which makes reproducing some of the results impossible.
 - [GLoVe](https://nlp.stanford.edu/projects/glove/)
 
+You need to download all available embeddings and unzip them to the `word_vectors` directory.
+
+Sadly neither the data sets, nor the word embeddings can be provided via GitHub, since the files are to big.
+
 ## Purpose of the provided files
 
  - models.py : All the model architectures are defined in this file.
