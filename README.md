@@ -59,3 +59,8 @@ You can also retrieve the token by connecting to the container and running:
 ```
 jupyter notebook list
 ```
+
+You can also clone the image from dockerhub:
+```
+docker pull paulerpenstein/cyberbullying
+```
